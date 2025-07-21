@@ -453,11 +453,10 @@
         });
     </script>
 
- <!-- Vercel Analytics Script -->
-  <script type="module">
-    import { inject } from 'https://unpkg.com/@vercel/analytics';
-    inject();
-  </script>
-
+<!-- Vercel Analytics Script -->
+<script defer src="https://unpkg.com/@vercel/analytics@latest/dist/analytics.min.js"></script>
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
 </body>
 </html>
