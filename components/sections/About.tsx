@@ -33,7 +33,7 @@ const qualities = [
 
 export function About() {
     return (
-        <section className="py-20 md:py-32 bg-white text-black relative overflow-hidden">
+        <section className="py-20 md:py-32 bg-white text-black relative overflow-hidden" id="about">
             <div className="container px-4 md:px-6 mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
                     <motion.div
@@ -47,7 +47,7 @@ export function About() {
                         </h2>
                         <div className="space-y-6 text-lg text-black/70 leading-relaxed">
                             <p>
-                                Founded by <span className="text-gold font-semibold">Saurabh Kulkarni</span>, SK 360 Dynamics is a premier consultancy firm dedicated to holistic growth.
+                                Founded by <a href="https://in.linkedin.com/in/saurabh-kulkarni-6b4310173" target="_blank" rel="noopener noreferrer" className="text-gold font-semibold hover:underline">Saurabh Kulkarni</a>, SK 360 Dynamics is a premier consultancy firm dedicated to holistic growth.
                             </p>
                             <p>
                                 We believe in taking smart risks, playing bold, and leveraging technology to unlock new opportunities for individuals and businesses alike.

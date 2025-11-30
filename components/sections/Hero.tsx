@@ -65,9 +65,6 @@ export function Hero() {
                     <LiquidButton size="xl" className="text-white bg-black hover:bg-black/90 shadow-lg shadow-black/20" href="/consultation">
                         Book Consultation
                     </LiquidButton>
-                    <LiquidButton variant="outline" size="xl" className="text-black border-black/10 hover:bg-black/5" href="/consultation">
-                        Explore Services
-                    </LiquidButton>
                 </motion.div>
             </div>
 

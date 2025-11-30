@@ -48,7 +48,7 @@ const services = [
 
 export function Services() {
     return (
-        <section className="py-20 md:py-32 bg-gray-50 text-black">
+        <section className="py-20 md:py-32 bg-gray-50 text-black" id="services">
             <div className="container px-4 md:px-6 mx-auto">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
