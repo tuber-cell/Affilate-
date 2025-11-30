@@ -7,7 +7,7 @@ import { ArrowRight, ChevronDown } from "lucide-react"
 
 export function Hero() {
     return (
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white">
+        <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-transparent">
             <div className="absolute inset-0 opacity-20">
                 <WebGLShader />
             </div>

@@ -13,7 +13,7 @@ import { Partners } from "@/components/sections/Partners"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white text-black overflow-x-hidden">
+    <main className="min-h-screen text-black overflow-x-hidden" style={{ backgroundColor: 'rgba(255, 140, 0, 0.7)' }}>
       <Navbar />
       <Hero />
       <div id="about">
